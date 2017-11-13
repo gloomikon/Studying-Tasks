@@ -1,0 +1,147 @@
+@import url(reset.css);
+body
+{
+	background: url(../images/main_bg.png);
+	font: 14px/1.5 Arial;
+	color: #353535;
+	text-align: center;
+}
+a
+{
+	color: #353535;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+#wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+}
+#logo
+{
+	margin-left: -3px;
+	float: left;
+	width: 204px;
+	height: 136px;
+}
+#menu
+{
+	width: 960px;
+	height: 70px;
+	background: url(../images/menu_bg.png) no-repeat;
+}
+#menu > ul
+{
+	overflow: hidden;
+	padding-left: 40px;
+}
+#menu > ul > li 
+{
+	float: left;
+	font: bold 18px Arial, Verdana, sanf-serif;
+	color: #ffffff;
+	margin-right: 70px;
+	line-height: 70px;
+
+}
+#menu > ul > li > a
+{
+	color: #ffffff;
+}
+#menu > ul > li > a:hover
+{
+	text-decoration: none;
+	border-bottom: 2px solid;
+}
+#menu > ul > li > span
+{
+	color: #ff1600;
+}
+#menu .phone
+{
+	float: right;
+	margin-right: 30px;
+}
+#header
+{
+	overflow: hidden;
+}
+.divider
+{
+	width: 552px;
+	height: 36px;
+	background: url(../images/divider.png);
+	margin: 3px auto 28px auto;
+}
+h1
+{
+	font-size: 55px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+h2
+{
+	font-size: 24px;
+}
+#content
+{
+	width: 590px;
+	margin: 0 auto;
+}
+.red-headline
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #a03131;
+	margin-top: 28px;
+}
+#social
+{
+	width: 300px;
+	margin: 15px auto 7px auto;
+}
+#social > li
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: left;
+	margin: 0 auto;
+	height: 39px;
+	padding-left: 60px;
+}
+#social > li > a
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+#Facebook
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+#Twitter
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+#RSS
+{
+	background: url(../images/rss.png) no-repeat;
+}
+#Dribbble
+{
+	background: url(../images/dribble.png) no-repeat;
+}
+#Linkedin
+{
+	background: url(../images/linkedin.png) no-repeat;
+}
+#footer > p
+{
+	color: #a03131;
+}
+#footer
+{
+	padding-bottom: 27px;
+}
