@@ -1,0 +1,204 @@
+@import url(reset.css);
+
+/* Base styles*/
+body,html
+{
+	height: 100%;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+textarea
+{
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -50px;
+	resize: none;
+	overflow: hidden;
+	float: right;
+	width: 244px;
+}
+button
+{
+	width: 125px;
+	position: absolute;
+}
+#login
+{
+	margin-left: 100px;
+	margin-top: 81px;
+}
+#reg
+{
+	margin-left: 225px;
+	margin-top: 81px;
+}
+.pimg1,.pimg2,.pimg3
+{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px;
+	background-attachment: fixed;
+}
+.pimg1
+{
+	background-image: url("../images/1.jpg");
+}
+.pimg2
+{
+	background-image: url("../images/2.jpg");
+}
+.pimg3
+{
+	background-image: url("../images/3.jpg");
+}
+
+.section
+{
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light
+{
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section-light > p,
+.section-light > h2,
+.section-dark-two > p,
+.section-dark-two > h2
+{
+	width: 50%;
+}
+.section-dark-one > p,
+.section-dark-one > h2
+{
+	width: 50%;
+	margin-left: 50%;
+}
+.section-dark-one,
+.section-dark-two
+{
+	background-color: #282e34;
+	color: #ddd;
+}
+.ptext
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.ptext .border
+{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+.ptext .border.trans
+{
+	background-color: transparent;
+}
+#header
+{
+	position: fixed;
+	z-index: 2;
+}
+a
+{
+	color: #353535;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+#logo
+{
+	float: left;
+	height: 60px;
+	width: 60px;
+}
+#logoimage
+{
+	margin: 0px;
+	margin-left: 10px;
+	height: 60px;
+}
+#peopleimage
+{
+	height: 300px;
+	position: absolute;
+	margin-top: -230px;
+	margin-left: -380px;
+}
+#system
+{
+	height: 300px;
+	position: absolute;
+	margin-top: -270px;
+	margin-left: 60px;
+}
+#menu
+{
+	width: 960px;
+	height: 60px;
+	background: linear-gradient(#454545,#6c6c6c,#454545);
+}
+#menu > ul
+{
+	overflow: hidden;
+	padding-left: 40px;
+}
+#menu > ul > li 
+{
+	float: left;
+	font: bold 15px;
+	color: #ffffff;
+	margin-right: 70px;
+	line-height: 60px;
+
+}
+#menu > ul > li > a
+{
+	color: #ffffff;
+}
+#menu > ul > li > a:hover
+{
+	text-decoration: none;
+	border-bottom: 2px solid;
+}
+#menu > ul > li > span
+{
+	color: #ff1600;
+}
+#menu .phone
+{
+	float: right;
+	margin-right: 30px;
+}
+#header
+{
+	overflow: hidden;
+}
+@media(max-width: 568px)
+{
+	.pimg,.pimg2,.pimg3
+	{
+		background-attachment: scroll;
+	}
+}
+#footer
+{
+	margin: auto;
+	text-align: center;
+}
