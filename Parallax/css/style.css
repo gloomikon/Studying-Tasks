@@ -4,7 +4,7 @@
 body,html
 {
 	height: 100%;
-	font-size: 16px;
+	font-size: 28px;
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	line-height: 1.8em;
@@ -13,7 +13,7 @@ body,html
 textarea
 {
 	position: absolute;
-	margin-left: 100px;
+	margin-left: 150px;
 	margin-top: -50px;
 	resize: none;
 	overflow: hidden;
@@ -27,12 +27,12 @@ button
 }
 #login
 {
-	margin-left: 100px;
+	margin-left: 150px;
 	margin-top: 81px;
 }
 #reg
 {
-	margin-left: 225px;
+	margin-left: 275px;
 	margin-top: 81px;
 }
 .pimg1,.pimg2,.pimg3
@@ -42,7 +42,7 @@ button
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 500px;
+	min-height: 1000px;
 	background-attachment: fixed;
 }
 .pimg1
@@ -137,20 +137,23 @@ a:hover
 #peopleimage
 {
 	height: 300px;
-	position: absolute;
-	margin-top: -230px;
-	margin-left: -380px;
+	position: relative;
+	float: left;
+	margin-left: -50px;
+	margin-top: -30px;
+	
 }
 #system
 {
-	height: 300px;
-	position: absolute;
-	margin-top: -270px;
-	margin-left: 60px;
+	height: 280px;
+	position: relative;
+	float: right;
+	left: -180px;
+	top: 30px;
 }
 #menu
 {
-	width: 960px;
+	width: 1920px;
 	height: 60px;
 	background: linear-gradient(#454545,#6c6c6c,#454545);
 }
@@ -162,7 +165,7 @@ a:hover
 #menu > ul > li 
 {
 	float: left;
-	font: bold 15px;
+	font: bold 17px;
 	color: #ffffff;
 	margin-right: 70px;
 	line-height: 60px;
